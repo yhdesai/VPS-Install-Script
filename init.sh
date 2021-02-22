@@ -1,6 +1,6 @@
 sudo apt update
 sudo apt upgrade -y
-sudo apt autoremove
+sudo apt autoremove -y
 
 sudo apt install git fail2ban nodejs npm apt-transport-https ca-certificates curl gnupg-agent software-properties-common -y
 
